@@ -19,13 +19,229 @@ h2 {
 
 /* header */
 header {
-  width: 967px;
   height: 75px;
   background-color: #fff;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
 }
 
 .logo {
   width: 187px;
   height: 59px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  list-style: none;
+  margin: 0 17px;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-family: 'Bebas Neue';
+  color: #000;
+  font-size: 24px;
+  padding: 7px;
+}
+
+.menu li a:hover {
+  background: #4a914a;
+  color: #fff;
+}
+
+/* banner */
+.banner {
+  height: 374px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner img {
+  height: 300px;
+}
+
+.slogan {
+  font-family: 'Bebas Neue';
+}
+
+.slogan p:first-child {
+  font-size: 60px;
+  color: #fff;
+  margin: 0 0 0 50px;
+}
+
+.slogan p:last-child {
+  font-size: 48px;
+  color: #418f30;
+  margin: 0 0 0 50px;
+}
+
+/* boxes */
+.box {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+}
+
+.box1 {
+  width: 334px;
+  height: 200px;
+  background: url(./img/box_1_hover.jpg);
+  margin-top: 30px;
+}
+
+.box2 {
+  width: 300px;
+  height: 200px;
+  background: url(./img/box_2_hover.jpg);
+  margin: 30px 20px 0 20px;
+}
+
+.box3 {
+  width: 334px;
+  height: 200px;
+  background: url(./img/box_3_hover.jpg);
+  margin-top: 30px;
+}
+
+.box1:hover {
+  margin-top: 10px;
+}
+
+.box2:hover {
+  margin-top: 10px;
+}
+
+.box3:hover {
+  margin-top: 10px;
+}
+
+/* main section*/
+section {
+  background: #f7f7f7;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.articles {
+  width: 900px;
+  padding: 50px 0;
+  margin: 0 auto;
+  display: flex;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+article {
+  margin: 0;
+  padding: 0 5% 0 5%;
+}
+
+.second {
+  border-right: 1px solid #f2f2f2;
+  border-left: 1px solid #f2f2f2;
+}
+
+article header {
+  padding: 0;
+  margin: 0;
+}
+
+article p {
+  color: #707070;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+button {
+  background-color: #418f30;
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button:hover {
+  background: #a0c75a;
+}
+
+.movies {
+  width: 900px;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.popular-movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.popular-movies a {
+  margin-bottom: 30px;
+}
+
+.popular-movies a:hover {
+  opacity: 0.7;
+}
+
+/* footer */
+footer {
+  background: #fff;
+  width: 100%;
+  height: 260px;
+}
+
+.footer-items {
+  width: 900px;
+  padding: 0 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer ul li {
+  padding: 5px 0;
+  font-size: 12px;
+  color: #707070;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #707070;
+}
+
+footer ul li a:hover {
+  color: #418f30;
+}
+
+footer .kontakt a {
+  color: #418f30;
+}
+
+footer h3 {
+  margin: 45px 0 25px 0;
+  font-family: 'Bebas Neue';
+  font-weight: normal;
+}
+
+.copyright p {
+  text-align: center;
+  color: #fff;
 }
